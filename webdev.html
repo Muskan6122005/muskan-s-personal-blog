@@ -4,46 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Web Development - My Simple Blog</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #333;
-            color: white;
-            padding: 10px 0;
-            text-align: center;
-        }
-        nav {
-            text-align: center;
-            padding: 10px;
-            background-color: #444;
-        }
-        nav a {
-            color: white;
-            margin: 0 15px;
-            text-decoration: none;
-            font-size: 1.2em;
-        }
-        .container {
-            max-width: 900px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: white;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        footer {
-            text-align: center;
-            padding: 10px;
-            background-color: #333;
-            color: white;
-            margin-top: 20px;
-        }
-    </style>
+    <title>Web Development - Muskan's Blog</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -55,6 +17,7 @@
         <a href="index.html">Home</a>
         <a href="python.html">Python</a>
         <a href="algorithms.html">Algorithms</a>
+        <a href="portfolio.html">Portfolio</a>
     </nav>
 
     <div class="container">
@@ -63,20 +26,26 @@
 
         <h2>Key Components</h2>
         <p>Web development is typically divided into two main categories: front-end and back-end development.</p>
-        <h3>Front-End Development</h3>
-        <p>This is the part of web development that users interact with directly. It involves everything that users experience on their screens, including layout, design, text, images, and navigation. Front-end developers primarily use HTML (HyperText Markup Language), CSS (Cascading Style Sheets), and JavaScript to build responsive and visually appealing user interfaces.</p>
-
-        <h3>Back-End Development</h3>
-        <p>This part of web development involves the server, database, and application logic. It is responsible for managing user connections, processing data, and sending it to the front end. Back-end developers often work with languages such as PHP, Python, Ruby, Java, and databases like MySQL and MongoDB.</p>
+        
+        <div class="topics-grid" style="margin-bottom: 30px;">
+            <div class="topic-card">
+                <h3>Front-End Development</h3>
+                <p>This is the part of web development that users interact with directly. It involves everything that users experience on their screens, including layout, design, text, images, and navigation. Front-end developers primarily use HTML, CSS, and JavaScript to build responsive interfaces.</p>
+            </div>
+            <div class="topic-card">
+                <h3>Back-End Development</h3>
+                <p>This part involves the server, database, and application logic. It is responsible for managing user connections, processing data, and sending it to the front end. Back-end developers often work with languages such as PHP, Python, Java, and databases like MySQL.</p>
+            </div>
+        </div>
 
         <h2>The Development Process</h2>
         <ol>
             <li><strong>Planning</strong>: Defining the purpose of the website, target audience, and key features.</li>
             <li><strong>Design</strong>: Creating wireframes and visual mockups to outline the website's layout and aesthetics.</li>
-            <li><strong>Development</strong>: Writing code for the front end and back end, integrating databases, and ensuring functionality.</li>
+            <li><strong>Development</strong>: Writing code for the front end and back end, integrating databases.</li>
             <li><strong>Testing</strong>: Checking for bugs and issues across different devices and browsers.</li>
             <li><strong>Deployment</strong>: Launching the website for public access.</li>
-            <li><strong>Maintenance</strong>: Regular updates and improvements based on user feedback and technological advancements.</li>
+            <li><strong>Maintenance</strong>: Regular updates and improvements based on user feedback.</li>
         </ol>
 
         <h2>Conclusion</h2>
@@ -84,16 +53,15 @@
 
         <h2>References</h2>
         <ul>
-            <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web" target="_blank">MDN Web Docs: Getting Started with the Web</a></li>
-            <li><a href="https://www.w3schools.com/whatis/" target="_blank">W3Schools: What is Web Development?</a></li>
-            <li><a href="https://www.freecodecamp.org/news/what-is-web-development/" target="_blank">FreeCodeCamp: What is Web Development?</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web" target="_blank" style="color: var(--accent-primary);">MDN Web Docs: Getting Started with the Web</a></li>
+            <li><a href="https://www.w3schools.com/whatis/" target="_blank" style="color: var(--accent-primary);">W3Schools: What is Web Development?</a></li>
+            <li><a href="https://www.freecodecamp.org/news/what-is-web-development/" target="_blank" style="color: var(--accent-primary);">FreeCodeCamp: What is Web Development?</a></li>
         </ul>
     </div>
 
     <footer>
-        <p>Copyright © 2024 Muskan's personal Blog</p>
+        <p>Copyright &copy; 2024 Muskan Yeshmin Ali</p>
     </footer>
 
 </body>
 </html>
-

@@ -4,46 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Algorithms - My Simple Blog</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #333;
-            color: white;
-            padding: 10px 0;
-            text-align: center;
-        }
-        nav {
-            text-align: center;
-            padding: 10px;
-            background-color: #444;
-        }
-        nav a {
-            color: white;
-            margin: 0 15px;
-            text-decoration: none;
-            font-size: 1.2em;
-        }
-        .container {
-            max-width: 900px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: white;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        footer {
-            text-align: center;
-            padding: 10px;
-            background-color: #333;
-            color: white;
-            margin-top: 20px;
-        }
-    </style>
+    <title>Algorithms - Muskan's Blog</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -55,6 +17,7 @@
         <a href="index.html">Home</a>
         <a href="webdev.html">Web Development</a>
         <a href="python.html">Python</a>
+        <a href="portfolio.html">Portfolio</a>
     </nav>
 
     <div class="container">
@@ -62,22 +25,29 @@
         <p>An algorithm is a step-by-step procedure or formula for solving a problem. Algorithms are fundamental to computer science, enabling efficient processing and manipulation of data. They provide a clear methodology for performing tasks, whether simple calculations or complex data analysis.</p>
 
         <h2>Types of Algorithms</h2>
-        <h3>Sorting Algorithms</h3>
-        <p>These algorithms arrange data in a specific order. Common sorting algorithms include Bubble Sort, Merge Sort, and Quick Sort. Efficient sorting is crucial for data retrieval and organization.</p>
-
-        <h3>Searching Algorithms</h3>
-        <p>Searching algorithms are used to find a specific element within a dataset. Examples include Linear Search and Binary Search. These algorithms are essential for data retrieval in databases and applications.</p>
-
-        <h3>Graph Algorithms</h3>
-        <p>Used in network routing and optimization, graph algorithms help in finding the shortest path between nodes. Dijkstra’s and A* algorithms are notable examples.</p>
-
-        <h3>Dynamic Programming Algorithms</h3>
-        <p>This approach involves breaking problems down into simpler subproblems and solving them recursively, storing the results to avoid redundant calculations. Examples include the Fibonacci sequence and the Knapsack problem.</p>
+        <div class="topics-grid" style="margin-bottom: 30px;">
+            <div class="topic-card">
+                <h3>Sorting Algorithms</h3>
+                <p>Arrange data in a specific order. Common sorting algorithms include Bubble Sort, Merge Sort, and Quick Sort. Essential for organization.</p>
+            </div>
+            <div class="topic-card">
+                <h3>Searching Algorithms</h3>
+                <p>Used to find a specific element within a dataset. Examples include Linear Search and Binary Search, critical for data retrieval.</p>
+            </div>
+            <div class="topic-card">
+                <h3>Graph Algorithms</h3>
+                <p>Used in network routing and optimization to find the shortest paths or connections. Dijkstra’s and A* are notable examples.</p>
+            </div>
+            <div class="topic-card">
+                <h3>Dynamic Programming</h3>
+                <p>Involves breaking problems down into simpler subproblems and storing results to avoid redundant calculations.</p>
+            </div>
+        </div>
 
         <h2>The Importance of Algorithms</h2>
         <p>Algorithms play a critical role in various domains, such as:</p>
         <ul>
-            <li><strong>Data Analysis</strong>: Efficient algorithms enable data scientists to process large datasets quickly, providing insights and driving decision-making.</li>
+            <li><strong>Data Analysis</strong>: Efficient algorithms enable data scientists to process large datasets quickly, providing insights.</li>
             <li><strong>Cryptography</strong>: Algorithms ensure secure communication by encrypting and decrypting data, protecting sensitive information.</li>
             <li><strong>Artificial Intelligence</strong>: AI relies heavily on algorithms for learning from data, making predictions, and optimizing decisions.</li>
         </ul>
@@ -87,16 +57,15 @@
 
         <h2>References</h2>
         <ul>
-            <li><a href="https://www.geeksforgeeks.org/fundamentals-of-algorithms/" target="_blank">GeeksforGeeks: Fundamentals of Algorithms</a></li>
-            <li><a href="https://www.khanacademy.org/computing/computer-science/algorithms" target="_blank">Khan Academy: Algorithms</a></li>
-            <li><a href="https://www.freecodecamp.org/news/algorithms-in-programming/" target="_blank">FreeCodeCamp: Understanding Algorithms in Programming</a></li>
+            <li><a href="https://www.geeksforgeeks.org/fundamentals-of-algorithms/" target="_blank" style="color: var(--accent-primary);">GeeksforGeeks: Fundamentals of Algorithms</a></li>
+            <li><a href="https://www.khanacademy.org/computing/computer-science/algorithms" target="_blank" style="color: var(--accent-primary);">Khan Academy: Algorithms</a></li>
+            <li><a href="https://www.freecodecamp.org/news/algorithms-in-programming/" target="_blank" style="color: var(--accent-primary);">FreeCodeCamp: Understanding Algorithms in Programming</a></li>
         </ul>
     </div>
 
     <footer>
-        <p>Copyright © 2024 Muskan's personal Blog</p>
+        <p>Copyright &copy; 2024 Muskan Yeshmin Ali</p>
     </footer>
 
 </body>
 </html>
-

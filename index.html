@@ -4,108 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Simple Blog</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #333;
-            color: white;
-            padding: 10px 0;
-            text-align: center;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 2.5em;
-        }
-        nav {
-            text-align: center;
-            padding: 10px;
-            background-color: #444;
-        }
-        nav a {
-            color: white;
-            margin: 0 15px;
-            text-decoration: none;
-            font-size: 1.2em;
-        }
-        .container {
-            max-width: 900px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: white;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h2 {
-            color: #333;
-            margin-top: 0;
-        }
-        footer {
-            text-align: center;
-            padding: 10px;
-            background-color: #333;
-            color: white;
-            margin-top: 20px;
-        }
-        .intro {
-            margin-bottom: 20px;
-            text-align: center;
-        }
-        .intro img {
-            max-width: 100%;
-            height: auto;
-        }
-        .topic-list {
-            list-style-type: none;
-            padding: 0;
-        }
-        .topic-list li {
-            margin: 10px 0;
-            padding: 10px;
-            background-color: #eaeaea;
-            border-left: 5px solid #333;
-            transition: background-color 0.3s;
-        }
-        .topic-list li:hover {
-            background-color: #ddd;
-        }
-    </style>
+    <title>Muskan's Personal Blog</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
-        <h1>Muskan's personal Blog</h1>
+        <h1>Muskan's Personal Blog</h1>
     </header>
 
     <nav>
+        <a href="index.html">Home</a>
         <a href="webdev.html">Web Development</a>
         <a href="python.html">Python</a>
         <a href="algorithms.html">Algorithms</a>
+        <a href="portfolio.html">Portfolio</a>
     </nav>
 
     <div class="container">
         <div class="intro">
-            <h2>Welcome to My Blog!</h2>
-            <p>Explore various topics in technology and programming. Click on the links above to learn more!</p>
-            <img src="https://th.bing.com/th/id/OIP.9KfKWKbLGgXMRpsWfj3aogHaDt?w=346&h=174&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Blog Banner">
+            <h2>Welcome to My Space</h2>
+            <p>Explore various topics in technology and programming. A journey of code, caffeine, and endless curiosity.</p>
+            <div class="intro-img-wrapper">
+                <img src="https://th.bing.com/th/id/OIP.9KfKWKbLGgXMRpsWfj3aogHaDt?w=346&h=174&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Tech Setup">
+            </div>
+            
+            <p><strong>Wanna peek into my world of projects and achievements?</strong></p>
+            <a href="portfolio.html" class="btn">View My Portfolio</a>
         </div>
-        <h2>wanna pay a visit to my small portfolio?</h2>
-        <h4><a href="portfolio.html">click here</a></h4>
 
-        <h2>Topics Covered</h2>
-        <ul class="topic-list">
-            <li><a href="webdev.html">Web Development</a> - Learn the basics of building websites and web applications.</li>
-            <li><a href="python.html">Python</a> - Discover the world of Python programming for various applications.</li>
-            <li><a href="algorithms.html">Algorithms</a> - Understand algorithms and their importance in computer science.</li>
-        </ul>
+        <h2>Topics I Cover</h2>
+        <div class="topics-grid">
+            <div class="topic-card">
+                <h3><a href="webdev.html">Web Development</a></h3>
+                <p>Learn the basics of building responsive websites and modern web applications with cutting-edge tools.</p>
+            </div>
+            <div class="topic-card">
+                <h3><a href="python.html">Python</a></h3>
+                <p>Discover the world of Python programming, from data science to artificial intelligence.</p>
+            </div>
+            <div class="topic-card">
+                <h3><a href="algorithms.html">Algorithms</a></h3>
+                <p>Understand complex algorithms and their critical role in problem-solving and software efficiency.</p>
+            </div>
+        </div>
     </div>
 
     <footer>
-        <p>Copyright © 2024 Muskan's personal Blog</p>
+        <p>Copyright &copy; 2024 Muskan's Personal Blog</p>
     </footer>
 
 </body>
