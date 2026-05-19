@@ -3,7 +3,7 @@
 Welcome to the source code for my personal interactive portfolio!
 
 ## 🚀 Live Demo
-**Check out the live portfolio here:** https://muskan6122005.github.io/muskan-s-portfolio-website/
+**Check out the live portfolio here:** https://captainramen35-lgtm.github.io/muskan-s-portfolio-website/
 
 ## ✨ Features
 - **Cyberpunk / Dark Mode Design:** A sleek, fully dark-themed UI.
