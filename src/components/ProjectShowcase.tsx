@@ -38,7 +38,7 @@ const PROJECTS_DATA: Project[] = [
     tags: ["React / Firebase", "Tailwind CSS", "Framer Motion", "ATS Analyzer", "Dark Academia UI"],
     backgroundImage: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1200&auto=format&fit=crop&q=80",
     boyImage: "https://i.ibb.co/Y4FKvK38/20250831-113022.png",
-    link: "https://github.com/Muskan6122005"
+    link: "https://github.com/captainramen35-lgtm/PlacePilot"
   },
   {
     title: "ResumeForge – AI Resume Builder",
