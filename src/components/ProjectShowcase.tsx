@@ -29,7 +29,7 @@ const PROJECTS_DATA: Project[] = [
     tags: ["React / Vite", "Firebase", "Groq LLaMA 3.3", "Twilio & EmailJS", "QR Code Scan"],
     backgroundImage: "https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?w=1200&auto=format&fit=crop&q=80",
     boyImage: "https://i.ibb.co/Y4FKvK38/20250831-113022.png",
-    link: "https://github.com/Muskan6122005"
+    link: "https://github.com/captainramen35-lgtm/MediKin"
   },
   {
     title: "PlacePilot – Full-Stack AI Prep Hub",
