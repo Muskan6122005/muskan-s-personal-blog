@@ -56,7 +56,7 @@ const PROJECTS_DATA: Project[] = [
     tags: ["Groq API / LLaMA 3.3", "3D Flashcards", "MCQ Quizzes", "Chronos Planner", "Single-Page"],
     backgroundImage: "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=1200&auto=format&fit=crop&q=80",
     boyImage: "https://i.ibb.co/Y4FKvK38/20250831-113022.png",
-    link: "https://github.com/Muskan6122005/StudyMind"
+    link: "https://github.com/captainramen35-lgtm/StudyMind-AI-Platform"
   },
   {
     title: "CodeSensei – Serverless AI Assistant",
