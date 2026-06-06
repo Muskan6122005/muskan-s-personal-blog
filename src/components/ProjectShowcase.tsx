@@ -47,7 +47,7 @@ const PROJECTS_DATA: Project[] = [
     tags: ["Groq LLaMA-3", "Glassmorphism UI", "html2pdf.js", "ATS Evaluator", "SPA Builder"],
     backgroundImage: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=1200&auto=format&fit=crop&q=80",
     boyImage: "https://i.ibb.co/Y4FKvK38/20250831-113022.png",
-    link: "https://github.com/Muskan6122005/ResumeForge"
+    link: "https://github.com/captainramen35-lgtm/ResumeForge-an-AI-powered-resume-builder"
   },
   {
     title: "StudyMind AI – AI Study Partner",
