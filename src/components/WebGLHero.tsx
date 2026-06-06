@@ -248,7 +248,7 @@ export const WebGLHero: React.FC = () => {
           </div>
           <div className="webgl-hero-image-container">
             <div className="webgl-hero-img-box magnetic">
-              <img src="/WhatsApp Image 2026-04-16 at 07.45.09.jpeg" alt="Muskan Yeshmin Ali" />
+              <img src="WhatsApp Image 2026-04-16 at 07.45.09.jpeg" alt="Muskan Yeshmin Ali" />
             </div>
           </div>
         </div>
